@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+} 
+main{
+    width: 1440px;
+    max-width: 100%;
+}
+.flex--container{
+    padding: 120px 250px;
+    display: flex;
+    margin: auto;
+}
+.flex--box{
+    height: auto;
+    padding: 45px;
+}
+.sedans--box h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.sedans--box{
+    background-color: orange;
+    border-radius: 7px 0 0 7px;
+}
+.sedans--box .btn{
+    color: orange;
+}
+.suvs--box h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.suvs--box{
+    background-color: darkcyan;
+}
+.suvs--box .btn{
+    color: darkcyan;
+}
+.luxury--box h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.luxury--box{
+    background-color: green;
+    border-radius: 0 7px 7px 0;
+}
+.luxury--box .btn{
+    color: green;
+}
+.image--box{
+    padding-bottom: 30px;
+    }
+.text--box p{
+    padding-bottom: 90px;
+    color: white;
+}
+.btn{
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+.btn:hover{
+    background-color: transparent;
+    color: gray;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
